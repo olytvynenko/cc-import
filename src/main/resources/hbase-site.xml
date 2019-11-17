@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property>
+        <name>hbase.zookeeper.quorum</name>
+        <value>production.cluster.host1,production.cluster.host2,production.cluster.host10</value>
+    </property>
+    <property>
+        <name>hbase.master</name>
+        <value>production.cluster.host2</value>
+    </property>
+    <property>
+        <name>zookeeper.znode.parent</name>
+        <value>/hbase-unsecure</value>
+    </property>
+
+    <!-- Put any other property here, it will be used -->
+</configuration>
